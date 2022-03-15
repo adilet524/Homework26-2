@@ -32,7 +32,7 @@ public class City implements Comparable<City> {
 
     @Override
     public String toString() {
-        return "{\nCode: " + code + " Name: " + name + "}";
+        return "\nCode: " + code + " Name: " + name;
     }
 
     @Override
